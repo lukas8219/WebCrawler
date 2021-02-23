@@ -25,6 +25,10 @@ public class Crawler extends Thread {
         return this.nextToVisit;
     }
 
+    public String getToVisit() {
+        return toVisit;
+    }
+
     @Override
     public void run(){
         //exec crawling.
